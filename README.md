@@ -4,8 +4,8 @@
 
 </div>
 
-<img src="./assets/stars-side.svg" align="left" width="70" height="870" alt=""/>
-<img src="./assets/stars-side.svg" align="right" width="70" height="870" alt=""/>
+<img src="./assets/stars-side.svg" align="left" width="70" height="670" alt=""/>
+<img src="./assets/stars-side.svg" align="right" width="70" height="670" alt=""/>
 
 <div align="center">
 
@@ -57,12 +57,10 @@
   <a href="https://github.com/muhammad-bats">
     <img src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=38BDF8" height="28" alt="GitHub"/>
   </a>
-</p>
-
-<p align="center">
+  <br/>
   <a href="https://git.io/typing-svg">
     <img
-      src="https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=3200&pause=1000&color=7DD3FC&center=true&vCenter=true&width=700&height=45&lines=Architecting+Edge+Computer+Vision+Systems;Building+Financial+Models+%26+Analytics;Developing+Multi-Modal+Biometrics;Deploying+LLM+Pipelines"
+      src="https://readme-typing-svg.demolab.com?font=Georgia&size=20&duration=3200&pause=1000&color=7DD3FC&center=true&vCenter=true&width=480&height=35&lines=Architecting+Edge+Computer+Vision+Systems;Building+Financial+Models+%26+Analytics;Developing+Multi-Modal+Biometrics;Deploying+LLM+Pipelines"
       alt="Typing SVG"
     />
   </a>

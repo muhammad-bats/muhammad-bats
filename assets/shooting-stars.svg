@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="100%" height="100%">
+  <defs>
+    <!-- Glowing Luminescence Filter -->
+    <filter id="shooting-star-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Collinear Tail Gradient (Head: Pure Icy White 100%, Tail: Fading Cyan/Slate 0%) -->
+    <linearGradient id="star-grad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="25%" stop-color="#e0f2fe" stop-opacity="0.9" />
+      <stop offset="60%" stop-color="#7dd3fc" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- STAR-TOP-RIGHT (dur=6.2s, begin=0s) -->
+  <g filter="url(#shooting-star-glow)">
+    <line x1="880.0" y1="-40.0" x2="952.0" y2="-80.0" stroke="url(#star-grad)" stroke-width="2.4" stroke-linecap="round" opacity="0">
+      <animate attributeName="x1" values="880.0; 880.0; 749.1; 290.9; 160.0; 160.0" keyTimes="0.00; 0.04; 0.12; 0.40; 0.48; 1.00" dur="6.2s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="-40.0; -40.0; 32.7; 287.3; 360.0; 360.0" keyTimes="0.00; 0.04; 0.12; 0.40; 0.48; 1.00" dur="6.2s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="952.0; 952.0; 821.1; 362.9; 232.0; 232.0" keyTimes="0.00; 0.04; 0.12; 0.40; 0.48; 1.00" dur="6.2s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="-80.0; -80.0; -7.3; 247.3; 320.0; 320.0" keyTimes="0.00; 0.04; 0.12; 0.40; 0.48; 1.00" dur="6.2s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.04; 0.12; 0.40; 0.48; 1.00" dur="6.2s" begin="0s" repeatCount="indefinite" />
+    </line>
+    <!-- Glowing Head Nucleus -->
+    <circle cx="880.0" cy="-40.0" r="2.3" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="880.0; 880.0; 749.1; 290.9; 160.0; 160.0" keyTimes="0.00; 0.04; 0.12; 0.40; 0.48; 1.00" dur="6.2s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="-40.0; -40.0; 32.7; 287.3; 360.0; 360.0" keyTimes="0.00; 0.04; 0.12; 0.40; 0.48; 1.00" dur="6.2s" begin="0s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.04; 0.12; 0.40; 0.48; 1.00" dur="6.2s" begin="0s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- STAR-TOP-LEFT (dur=7.4s, begin=2.1s) -->
+  <g filter="url(#shooting-star-glow)">
+    <line x1="320.0" y1="-40.0" x2="392.0" y2="-80.0" stroke="url(#star-grad)" stroke-width="2.0" stroke-linecap="round" opacity="0">
+      <animate attributeName="x1" values="320.0; 320.0; 217.1; -117.1; -220.0; -220.0" keyTimes="0.00; 0.14; 0.22; 0.48; 0.56; 1.00" dur="7.4s" begin="2.1s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="-40.0; -40.0; 17.1; 202.9; 260.0; 260.0" keyTimes="0.00; 0.14; 0.22; 0.48; 0.56; 1.00" dur="7.4s" begin="2.1s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="392.0; 392.0; 289.1; -45.1; -148.0; -148.0" keyTimes="0.00; 0.14; 0.22; 0.48; 0.56; 1.00" dur="7.4s" begin="2.1s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="-80.0; -80.0; -22.9; 162.9; 220.0; 220.0" keyTimes="0.00; 0.14; 0.22; 0.48; 0.56; 1.00" dur="7.4s" begin="2.1s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.14; 0.22; 0.48; 0.56; 1.00" dur="7.4s" begin="2.1s" repeatCount="indefinite" />
+    </line>
+    <!-- Glowing Head Nucleus -->
+    <circle cx="320.0" cy="-40.0" r="1.9" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="320.0; 320.0; 217.1; -117.1; -220.0; -220.0" keyTimes="0.00; 0.14; 0.22; 0.48; 0.56; 1.00" dur="7.4s" begin="2.1s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="-40.0; -40.0; 17.1; 202.9; 260.0; 260.0" keyTimes="0.00; 0.14; 0.22; 0.48; 0.56; 1.00" dur="7.4s" begin="2.1s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.14; 0.22; 0.48; 0.56; 1.00" dur="7.4s" begin="2.1s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- STAR-UPPER-RIGHT-FLANK (dur=6.8s, begin=4.3s) -->
+  <g filter="url(#shooting-star-glow)">
+    <line x1="960.0" y1="220.0" x2="1032.0" y2="180.0" stroke="url(#star-grad)" stroke-width="2.6" stroke-linecap="round" opacity="0">
+      <animate attributeName="x1" values="960.0; 960.0; 829.1; 370.9; 240.0; 240.0" keyTimes="0.00; 0.22; 0.30; 0.58; 0.66; 1.00" dur="6.8s" begin="4.3s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="220.0; 220.0; 292.7; 547.3; 620.0; 620.0" keyTimes="0.00; 0.22; 0.30; 0.58; 0.66; 1.00" dur="6.8s" begin="4.3s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="1032.0; 1032.0; 901.1; 442.9; 312.0; 312.0" keyTimes="0.00; 0.22; 0.30; 0.58; 0.66; 1.00" dur="6.8s" begin="4.3s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="180.0; 180.0; 252.7; 507.3; 580.0; 580.0" keyTimes="0.00; 0.22; 0.30; 0.58; 0.66; 1.00" dur="6.8s" begin="4.3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.22; 0.30; 0.58; 0.66; 1.00" dur="6.8s" begin="4.3s" repeatCount="indefinite" />
+    </line>
+    <!-- Glowing Head Nucleus -->
+    <circle cx="960.0" cy="220.0" r="2.5" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="960.0; 960.0; 829.1; 370.9; 240.0; 240.0" keyTimes="0.00; 0.22; 0.30; 0.58; 0.66; 1.00" dur="6.8s" begin="4.3s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="220.0; 220.0; 292.7; 547.3; 620.0; 620.0" keyTimes="0.00; 0.22; 0.30; 0.58; 0.66; 1.00" dur="6.8s" begin="4.3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.22; 0.30; 0.58; 0.66; 1.00" dur="6.8s" begin="4.3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- STAR-TOP-CENTER (dur=8.0s, begin=1.2s) -->
+  <g filter="url(#shooting-star-glow)">
+    <line x1="620.0" y1="-40.0" x2="692.0" y2="-80.0" stroke="url(#star-grad)" stroke-width="2.2" stroke-linecap="round" opacity="0">
+      <animate attributeName="x1" values="620.0; 620.0; 486.0; 34.0; -100.0; -100.0" keyTimes="0.00; 0.07; 0.15; 0.42; 0.50; 1.00" dur="8.0s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="-40.0; -40.0; 34.4; 285.6; 360.0; 360.0" keyTimes="0.00; 0.07; 0.15; 0.42; 0.50; 1.00" dur="8.0s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="692.0; 692.0; 558.0; 106.0; -28.0; -28.0" keyTimes="0.00; 0.07; 0.15; 0.42; 0.50; 1.00" dur="8.0s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="-80.0; -80.0; -5.6; 245.6; 320.0; 320.0" keyTimes="0.00; 0.07; 0.15; 0.42; 0.50; 1.00" dur="8.0s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.07; 0.15; 0.42; 0.50; 1.00" dur="8.0s" begin="1.2s" repeatCount="indefinite" />
+    </line>
+    <!-- Glowing Head Nucleus -->
+    <circle cx="620.0" cy="-40.0" r="2.1" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="620.0; 620.0; 486.0; 34.0; -100.0; -100.0" keyTimes="0.00; 0.07; 0.15; 0.42; 0.50; 1.00" dur="8.0s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="-40.0; -40.0; 34.4; 285.6; 360.0; 360.0" keyTimes="0.00; 0.07; 0.15; 0.42; 0.50; 1.00" dur="8.0s" begin="1.2s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.07; 0.15; 0.42; 0.50; 1.00" dur="8.0s" begin="1.2s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- STAR-MID-RIGHT-FLANK (dur=7.8s, begin=3.5s) -->
+  <g filter="url(#shooting-star-glow)">
+    <line x1="950.0" y1="560.0" x2="1022.0" y2="520.0" stroke="url(#star-grad)" stroke-width="2.5" stroke-linecap="round" opacity="0">
+      <animate attributeName="x1" values="950.0; 950.0; 824.8; 355.2; 230.0; 230.0" keyTimes="0.00; 0.27; 0.35; 0.65; 0.73; 1.00" dur="7.8s" begin="3.5s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="560.0; 560.0; 629.6; 890.4; 960.0; 960.0" keyTimes="0.00; 0.27; 0.35; 0.65; 0.73; 1.00" dur="7.8s" begin="3.5s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="1022.0; 1022.0; 896.8; 427.2; 302.0; 302.0" keyTimes="0.00; 0.27; 0.35; 0.65; 0.73; 1.00" dur="7.8s" begin="3.5s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="520.0; 520.0; 589.6; 850.4; 920.0; 920.0" keyTimes="0.00; 0.27; 0.35; 0.65; 0.73; 1.00" dur="7.8s" begin="3.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.27; 0.35; 0.65; 0.73; 1.00" dur="7.8s" begin="3.5s" repeatCount="indefinite" />
+    </line>
+    <!-- Glowing Head Nucleus -->
+    <circle cx="950.0" cy="560.0" r="2.4" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="950.0; 950.0; 824.8; 355.2; 230.0; 230.0" keyTimes="0.00; 0.27; 0.35; 0.65; 0.73; 1.00" dur="7.8s" begin="3.5s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="560.0; 560.0; 629.6; 890.4; 960.0; 960.0" keyTimes="0.00; 0.27; 0.35; 0.65; 0.73; 1.00" dur="7.8s" begin="3.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.27; 0.35; 0.65; 0.73; 1.00" dur="7.8s" begin="3.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- STAR-LOWER-RIGHT-FLANK (dur=8.6s, begin=5.4s) -->
+  <g filter="url(#shooting-star-glow)">
+    <line x1="920.0" y1="840.0" x2="992.0" y2="800.0" stroke="url(#star-grad)" stroke-width="2.0" stroke-linecap="round" opacity="0">
+      <animate attributeName="x1" values="920.0; 920.0; 794.8; 325.2; 200.0; 200.0" keyTimes="0.00; 0.37; 0.45; 0.75; 0.83; 1.00" dur="8.6s" begin="5.4s" repeatCount="indefinite" />
+      <animate attributeName="y1" values="840.0; 840.0; 909.6; 1170.4; 1240.0; 1240.0" keyTimes="0.00; 0.37; 0.45; 0.75; 0.83; 1.00" dur="8.6s" begin="5.4s" repeatCount="indefinite" />
+      <animate attributeName="x2" values="992.0; 992.0; 866.8; 397.2; 272.0; 272.0" keyTimes="0.00; 0.37; 0.45; 0.75; 0.83; 1.00" dur="8.6s" begin="5.4s" repeatCount="indefinite" />
+      <animate attributeName="y2" values="800.0; 800.0; 869.6; 1130.4; 1200.0; 1200.0" keyTimes="0.00; 0.37; 0.45; 0.75; 0.83; 1.00" dur="8.6s" begin="5.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.37; 0.45; 0.75; 0.83; 1.00" dur="8.6s" begin="5.4s" repeatCount="indefinite" />
+    </line>
+    <!-- Glowing Head Nucleus -->
+    <circle cx="920.0" cy="840.0" r="1.9" fill="#ffffff" opacity="0">
+      <animate attributeName="cx" values="920.0; 920.0; 794.8; 325.2; 200.0; 200.0" keyTimes="0.00; 0.37; 0.45; 0.75; 0.83; 1.00" dur="8.6s" begin="5.4s" repeatCount="indefinite" />
+      <animate attributeName="cy" values="840.0; 840.0; 909.6; 1170.4; 1240.0; 1240.0" keyTimes="0.00; 0.37; 0.45; 0.75; 0.83; 1.00" dur="8.6s" begin="5.4s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.00; 0.00; 0.95; 0.95; 0.00; 0.00" keyTimes="0.00; 0.37; 0.45; 0.75; 0.83; 1.00" dur="8.6s" begin="5.4s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>

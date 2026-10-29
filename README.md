@@ -56,6 +56,10 @@
   <a href="https://github.com/muhammad-bats">
     <img src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=38BDF8" height="28" alt="GitHub"/>
   </a>
+</p>
+
+<div align="center">
+
   <br/><br/>
   <a href="https://git.io/typing-svg">
     <img
@@ -63,9 +67,10 @@
       alt="Typing SVG"
     />
   </a>
-</p>
 
 <br clear="all"/>
+
+</div>
 
 <div align="center">
 

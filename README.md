@@ -35,7 +35,7 @@
 <p align="center"><strong><font face="Georgia, serif">Tools &amp; Frameworks</font></strong></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=fastapi,react,laravel,postgres,git" alt="Tools &amp; Frameworks"/>
+  <img src="https://skillicons.dev/icons?i=fastapi,react,laravel,postgres,git,docker" alt="Tools &amp; Frameworks"/>
 </p>
 
 <p align="center">
@@ -69,10 +69,6 @@
   </a>
 
 <br clear="all"/>
-
-</div>
-
-<div align="center">
 
 <img src="./assets/stars-footer.svg" width="100%" alt="Celestial Starfield Footer"/>
 

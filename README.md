@@ -24,7 +24,7 @@
 <p align="center"><strong><font face="Georgia, serif">AI / ML</font></strong></p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=pytorch,opencv,sklearn" alt="AI / ML"/>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn" alt="AI / ML"/>
 </p>
 
 <p align="center">
